@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 
-
+body {
+    margin: 0%;
+}
 
 header {
     font-family: 'Open Sans', sans-serif;
@@ -54,13 +56,14 @@ section > article > h3 {
     text-align: left;
 }
 
-section article > p {
+section article p {
     text-align: left;
+    text-align: justify;
 }
 
 article {
-    width: 60%;
-    margin: 0% 20%;
+    width: 50%;
+    margin: 0 10%;
 }
 
 nav {
@@ -74,6 +77,10 @@ nav > a {
 }
 
 .destaque {
+    margin: 0 10%;
+}
+
+.destaque h3 {
     color: #95BBDF;
 }
 
@@ -81,4 +88,17 @@ aside {
     float: right;
     width: 20%;
     margin: 5%;
+    margin-top: 2%;
+}
+
+footer {
+    background-color: black;
+    margin: 0%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0%;
 }
