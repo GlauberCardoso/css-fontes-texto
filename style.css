@@ -8,11 +8,32 @@ body {
     margin: 0%;
 }
 
+nav {
+    background-color: #000000;
+    padding: 20px;
+}
+
+nav > a {
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
 header {
     font-family: 'Open Sans', sans-serif;
     width: 80%;
     padding: 5% 10%;
     background-color: #BFBFBF;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    margin: 5%;
+    margin-top: 2%;
+}
+
+aside h3 {
+    text-decoration: none;
 }
 
 p, a, button {
@@ -38,8 +59,13 @@ a {
     text-decoration: none;
 }
 
-aside h3 {
-    text-decoration: none;
+section > article > h3 {
+    text-align: left;
+}
+
+section > article > p {
+    text-align: left;
+    text-align: justify;
 }
 
 section > article > img {
@@ -48,56 +74,30 @@ section > article > img {
     margin: auto;
 }
 
-.legenda {
-    text-align: center;
-}
-
-section > article > h3 {
-    text-align: left;
-}
-
-section article p {
-    text-align: left;
-    text-align: justify;
-}
-
 article {
     width: 50%;
     margin: 0 10%;
 }
 
-nav {
-    background-color: #000000;
-    padding: 20px;
-}
-
-nav > a {
-    color: #FFFFFF;
-    margin: 0px 10px;
-}
-
-.destaque {
+article.destaque {
     margin: 0 10%;
 }
 
-.destaque h3 {
+article.destaque > h3 {
     color: #95BBDF;
 }
 
-aside {
-    float: right;
-    width: 20%;
-    margin: 5%;
-    margin-top: 2%;
+p.legenda {
+    text-align: center;
 }
 
 footer {
-    background-color: black;
+    background-color: #000000;
     margin: 0%;
 }
 
 footer p {
-    color: white;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
     margin: 0%;
