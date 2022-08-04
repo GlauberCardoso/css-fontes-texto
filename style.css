@@ -8,6 +8,10 @@ body {
     margin: 0%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav {
     background-color: #000000;
     padding: 20px;
@@ -34,6 +38,10 @@ aside {
 
 aside h3 {
     text-decoration: none;
+}
+
+aside section p {
+    text-align: justify;
 }
 
 p, a, button {
